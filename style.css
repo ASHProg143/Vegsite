@@ -1,0 +1,24 @@
+.cursorFollower {
+  background-image: url(https://e7.pngegg.com/pngimages/856/440/png-clipart-dragon-ball-z-vegeta-vegeta-gohan-majin-buu-frieza-goku-vegeta-fictional-character-cartoon-thumbnail.png); background-repeat: no-repeat; width: 600px; height: 200px;
+  
+  position: fixed;
+  width: 15rem;
+  height: 15rem;
+  transform: translate(50%, 50%);
+  transition: transform 0.15s;
+  mix-blend-mode: normal;
+  z-index: 999;
+  pointer-events: none;
+}
+.cursorFollowerDot {
+  position: fixed;
+  width: 0rem;
+  height: 0rem;
+  background: #000;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s;
+  mix-blend-mode: normal;
+  z-index: 999;
+  pointer-events: none;
+}
