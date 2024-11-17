@@ -233,11 +233,11 @@ state=4;
 
 
 if (theta > 90 && theta < 270) {
-  element.style.backgroundImage = "url('https://ashprog143.github.io/Vegsite/Vegeta4.png')"
+  element.style.backgroundImage = "url('http://ashprog143.github.io/Vegsite/Vegeta4.png')"
   rotateThisFlip(element, 180);
 }
 if ((theta < 90 && theta > 0) || (theta < 360 && theta > 270) ) {
-  element.style.backgroundImage = "url('https://ashprog143.github.io/Vegsite/Vegeta3.png')"
+  element.style.backgroundImage = "url('http://ashprog143.github.io/Vegsite/Vegeta3.png')"
   rotateThis(element, 0);
 }
 
