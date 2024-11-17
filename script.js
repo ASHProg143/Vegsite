@@ -13,7 +13,7 @@ var sounddelay = 55;
 var dodgedelay = 50;
 var state1timer = 0;
 var state4delay = 0;
-state4delaysetpoint = 150;
+state4delaysetpoint = 350;
 
 var xp = 0,
   mouseX = 0;
